@@ -1,0 +1,207 @@
+<div class="card-inner animated active" id="about">
+  <div class="card-wrap">
+    <div class="content about">
+      <div class="title"><span class="first-word">About</span> Me</div>
+      <div class="row">
+        <div class="col border-line-v">
+          <div class="text-box">
+            <p>
+              <strong>Hello! I'm {{ username }}</strong>
+              {{ about.bio }}
+            </p>
+          </div>
+        </div>
+        <div class="col border-line-v w-100">
+          <div class="">
+            <div class="col px-0">
+              <ul>
+                <li><strong>Age . . . . .</strong> {{ getAge(about.age) }}</li>
+                <li>
+                  <strong>Residence . . . . .</strong> {{ about.country }}
+                </li>
+              </ul>
+            </div>
+            <div class="col px-0 float-right">
+              <ul>
+                <li><strong>Address . . . . .</strong> {{ about.address }}</li>
+                <li><strong>Contact . . . . .</strong> {{ about.contact }}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <!-- <div class="content testimonials">
+      <div class="title">Testimonials</div>
+      <div class="row testimonials-items">
+        <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+          <div class="revs-carousel default-revs">
+            <div
+              class="swiper swiper-initialized swiper-horizontal swiper-pointer-events owl-carousel swiper-backface-hidden"
+            >
+              <div
+                class="swiper-wrapper"
+                style="
+                  transform: translate3d(-1923px, 0px, 0px);
+                  transition-duration: 0ms;
+                "
+              >
+                <div
+                  class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active item"
+                  data-swiper-slide-index="2"
+                  style="width: 641px"
+                >
+                  <div class="revs-item">
+                    <div class="text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </div>
+                    <div class="user">
+                      <div class="img">
+                        <img src="images/testi3.png" alt="" />
+                      </div>
+                      <div class="info">
+                        <div class="name">Helen Floyd</div>
+                        <div class="company">Art Director</div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide swiper-slide-duplicate-next item"
+                  data-swiper-slide-index="0"
+                  style="width: 641px"
+                >
+                  <div class="revs-item">
+                    <div class="text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </div>
+                    <div class="user">
+                      <div class="img">
+                        <img src="images/testi1.jpg" alt="" />
+                      </div>
+                      <div class="info">
+                        <div class="name">Helen Floyd</div>
+                        <div class="company">Art Director</div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide swiper-slide-prev item"
+                  data-swiper-slide-index="1"
+                  style="width: 641px"
+                >
+                  <div class="revs-item">
+                    <div class="text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </div>
+                    <div class="user">
+                      <div class="img">
+                        <img src="images/testi2.jpg" alt="" />
+                      </div>
+                      <div class="info">
+                        <div class="name">Robert Chase</div>
+                        <div class="company">CEO</div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide swiper-slide-active item"
+                  data-swiper-slide-index="2"
+                  style="width: 641px"
+                >
+                  <div class="revs-item">
+                    <div class="text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </div>
+                    <div class="user">
+                      <div class="img">
+                        <img src="images/testi3.png" alt="" />
+                      </div>
+                      <div class="info">
+                        <div class="name">Helen Floyd</div>
+                        <div class="company">Art Director</div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide swiper-slide-duplicate swiper-slide-next item"
+                  data-swiper-slide-index="0"
+                  style="width: 641px"
+                >
+                  <div class="revs-item">
+                    <div class="text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </div>
+                    <div class="user">
+                      <div class="img">
+                        <img src="images/testi1.jpg" alt="" />
+                      </div>
+                      <div class="info">
+                        <div class="name">Helen Floyd</div>
+                        <div class="company">Art Director</div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
+              >
+                <span class="swiper-pagination-bullet"></span
+                ><span class="swiper-pagination-bullet"></span
+                ><span
+                  class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div> -->
+    <div class="content fuct">
+      <div class="title">Fun Fact</div>
+      <div class="row fuct-items">
+        <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+          <div class="fuct-item">
+            <div class="icon"><span class="fa fa-music"></span></div>
+            <div class="name">80 Albumes Listened</div>
+          </div>
+        </div>
+        <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+          <div class="fuct-item">
+            <div class="icon"><span class="fa fa-trophy"></span></div>
+            <div class="name">15 Awards Won</div>
+          </div>
+        </div>
+        <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+          <div class="fuct-item">
+            <div class="icon"><span class="fa fa-coffee"></span></div>
+            <div class="name">1 000 Cups of coffee</div>
+          </div>
+        </div>
+        <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+          <div class="fuct-item">
+            <div class="icon"><span class="fa fa-flag"></span></div>
+            <div class="name">10 Countries Visited</div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</div>

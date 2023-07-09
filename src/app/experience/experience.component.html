@@ -1,0 +1,33 @@
+<div class="card-inner animated active" id="about">
+  <div class="card-wrap">
+    <div class="content about">
+      <div class="title">
+        <span class="first-word">Professional</span> Experience
+      </div>
+      <div
+        class="d-flex experience-container"
+        *ngFor="let eachExp of experiences; let i = index"
+      >
+        <div class="role-container">
+          <div class="font-weight-bolder">{{ eachExp.role }}</div>
+          <div class="width-max-content white-space-nowrap">
+            {{ eachExp.startDate }} - {{ eachExp.endDate }}
+          </div>
+        </div>
+        <div class="d-flex timeline-vertical">
+          <span class="fa fa-circle"></span>
+        </div>
+        <div>
+          <div class="font-weight-bolder">{{ eachExp.organization }}</div>
+          <div
+            class="d-flex"
+            *ngFor="let eachContribution of eachExp.contribution"
+          >
+            <span class="fa fa-circle contribution-icon font-em-6 mr-2"></span
+            ><span class="mb-2">{{ eachContribution }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

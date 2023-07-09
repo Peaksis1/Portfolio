@@ -1,0 +1,24 @@
+@import url(../scss/base-page-styles.scss);
+
+@media (min-width: 1199px) {
+  .d-sm-vertical {
+    display: inline;
+  }
+}
+
+@media (max-width: 1199px) {
+  .d-sm-vertical.hidden-section {
+    display: none !important;
+  }
+  .d-sm-vertical {
+    display: table-cell !important;
+    vertical-align: bottom !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .d-sm-vertical {
+    display: table-cell !important;
+    vertical-align: bottom !important;
+  }
+}

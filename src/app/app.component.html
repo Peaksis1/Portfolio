@@ -1,0 +1,81 @@
+<div class="view d-flex justify-content-center align-items-center">
+  <div class="portfolio-bg"></div>
+  <div class="container portfolio-container">
+    <div>
+      <app-header
+        [username]="userName"
+        [roles]="userRoles"
+        (showInfoEvent)="changeActiveInfo($event)"
+      ></app-header>
+    </div>
+    <div>
+      <app-basic-info
+        [username]="userName"
+        [roles]="userRoles"
+      ></app-basic-info>
+    </div>
+    <div
+      class="d-sm-vertical"
+      [ngClass]="
+        activeInfo === 'about'
+          ? 'animated fadeInLeft visible-section'
+          : 'animated fadeOutLeft hidden-section'
+      "
+    >
+      <app-about
+        [isActive]="activeInfo === 'about'"
+        [username]="userName"
+        [about]="about"
+      ></app-about>
+    </div>
+
+    <div
+      [ngClass]="
+        activeInfo === 'education'
+          ? 'animated fadeInLeft visible-section'
+          : 'animated fadeOutLeft hidden-section'
+      "
+    >
+      <app-educational-background
+        [education]="education"
+      ></app-educational-background>
+    </div>
+
+    <div
+      [ngClass]="
+        activeInfo === 'experience'
+          ? 'animated fadeInLeft visible-section'
+          : 'animated fadeOutLeft hidden-section'
+      "
+    >
+      <app-experience [experiences]="experiences"></app-experience>
+    </div>
+
+    <div
+      [ngClass]="
+        activeInfo === 'skills'
+          ? 'animated fadeInLeft visible-section'
+          : 'animated fadeOutLeft hidden-section'
+      "
+    >
+      <app-skills [skills]="skills"></app-skills>
+    </div>
+    <div>
+      <app-coming-soon
+        [isActive]="
+          activeInfo !== 'about' &&
+          activeInfo !== 'education' &&
+          activeInfo !== 'skills'
+        "
+        [ngClass]="
+          activeInfo !== 'about' &&
+          activeInfo !== 'education' &&
+          activeInfo !== 'skills'
+            ? 'active'
+            : 'd-none'
+        "
+      ></app-coming-soon>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

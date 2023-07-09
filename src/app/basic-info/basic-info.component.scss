@@ -1,0 +1,82 @@
+@import url(../../scss/details-card-base.scss);
+@import url(../../scss/base-page-styles.scss);
+
+.card-started {
+  position: relative;
+  float: left;
+  width: 480px;
+  height: 620px;
+}
+
+.card-started .brand {
+  padding: 50px;
+  position: relative;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-started .brand.no-photo {
+  padding-top: 50px;
+}
+
+.card-started .brand.no-photo .title {
+  margin-top: 240px;
+}
+
+.card-started .brand .slide {
+  height: 52%;
+}
+
+.card-started .brand.no-photo .slide {
+  height: 57%;
+}
+
+.card-started .brand .slide:before,
+.card-started .brand .slide:after {
+  left: -25%;
+  bottom: -63%;
+  width: 100%;
+  height: 70%;
+}
+
+.card-started .brand .slide:after {
+  left: auto;
+  right: -25%;
+  transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+}
+
+.card-started .brand .image {
+  margin: 80px 0 20px 0;
+  width: 146px;
+}
+
+.card-started .brand .title,
+.content-sidebar .brand .title {
+  font-size: 34px;
+  color: #323232;
+}
+
+.card-started .brand .subtitle,
+.card-started .brand .typed-cursor {
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  color: #78cc6d;
+  font-size: 16px;
+  line-height: 20px;
+  height: 20px;
+  font-weight: 400;
+}
+
+.card-started .brand .social {
+  position: relative;
+  margin: 16px 0 0 0;
+}

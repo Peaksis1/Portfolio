@@ -1,0 +1,130 @@
+@import url(../../scss/details-card-base.scss);
+
+.resume-items .resume-item {
+  padding: 30px 0;
+}
+
+.hexagon-wrapper {
+  margin: auto;
+  display: inline-flex;
+  text-align: initial;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.hexagon {
+  position: relative;
+  width: 46%;
+  height: 80%;
+  margin: auto;
+  color: white;
+  background: linear-gradient(-180deg, #dfffd9, #afdba9);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.hexagon:before,
+.hexagon:after {
+  position: absolute;
+  content: "";
+  background: inherit;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  transition: 0.5s;
+  border-radius: 5px;
+  transform-origin: center;
+}
+.hexagon:before {
+  transform: rotateZ(60deg);
+  border-radius: 5px;
+}
+.hexagon:after {
+  transform: rotateZ(-60deg);
+  border-radius: 5px;
+}
+.hexagon:hover {
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.hexagon:hover:before {
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.hexagon:hover:after {
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.hexagon .hexagon-content {
+  z-index: 4;
+  position: absolute;
+  align-self: center;
+  text-align: center;
+  color: #005e00;
+}
+
+.skill-icon {
+  font-size: 2em !important;
+  color: rgb(62, 189, 62) !important;
+}
+
+.hexagon-wrapper-header {
+  display: flex;
+  max-width: 2em;
+  justify-content: space-around;
+  word-break: keep-all;
+  border-radius: 5px;
+  background: #bdedb5;
+  border-right: 2px solid green;
+}
+
+.flex-row-reverse .hexagon-wrapper-header {
+  border-right: unset !important;
+  border-left: 2px solid green;
+}
+
+.hexagon-wrapper-header > div {
+  transform: rotate(-90deg);
+  align-self: center;
+  white-space: nowrap;
+}
+.flex-row-reverse .hexagon-wrapper-header > div {
+  transform: rotate(90deg);
+}
+
+.about .skill-set-container:first-child {
+  margin-top: 2em !important;
+}
+
+.skill-set-container {
+  background: linear-gradient(
+    90deg,
+    rgb(241 255 238) 0%,
+    rgb(254, 254, 254) 35%,
+    rgba(0, 212, 255, 0) 100%
+  );
+
+  border-bottom-right-radius: 5px;
+  justify-content: space-between;
+}
+
+.skill-set-container.flex-row-reverse {
+  background: linear-gradient(
+    -90deg,
+    rgb(241 255 238) 0%,
+    rgb(254 254 254) 35%,
+    rgba(0, 212, 255, 0) 100%
+  ) !important;
+}
+
+.py-2em {
+  padding: 2em 0em;
+}
+
+.mt-2em {
+  margin-top: 2em;
+}

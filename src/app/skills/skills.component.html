@@ -1,0 +1,31 @@
+<div class="card-inner animated active" id="about">
+  <div class="card-wrap">
+    <div class="content about">
+      <div class="title">
+        <span class="first-word">Skills</span>
+      </div>
+      <div
+        class="d-flex skill-set-container"
+        [ngClass]="i % 2 != 0 ? 'flex-row-reverse' : ''"
+        *ngFor="let skillGrp of groupedSkills | keyvalue; let i = index"
+      >
+        <div class="hexagon-wrapper-header">
+          <div>{{ skillGrp.key }}</div>
+        </div>
+        <div class="py-2em">
+          <span
+            class="hexagon-wrapper"
+            *ngFor="let eachSkill of skillGrp.value"
+          >
+            <span class="hexagon">
+              <span class="hexagon-content">
+                <i class="skill-icon" [ngClass]="eachSkill.image"></i>
+                <div>{{ eachSkill.name }}</div></span
+              >
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

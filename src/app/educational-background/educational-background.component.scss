@@ -1,0 +1,72 @@
+@import url(../../scss/details-card-base.scss);
+
+.resume-items .resume-item {
+  padding: 30px 0;
+}
+
+.resume-items .resume-item:first-child {
+  padding-top: 0;
+}
+
+.resume-items .resume-item:after {
+  left: 0;
+}
+
+.resume-items .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume-items .resume-item:last-child:after {
+  display: none;
+}
+
+.resume-items .resume-item.active .date {
+  border-color: #78cc6d;
+}
+
+.resume-items .resume-item .date {
+  margin: 0 0 11px 0;
+  padding: 0 5px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ccc;
+  font-weight: 400;
+  text-transform: none;
+  border: 1px solid #eeeeee;
+}
+
+.resume-items .resume-item .date:before {
+  display: none;
+}
+
+.resume-items .resume-item .name {
+  font-size: 17px;
+  color: #323232;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.resume-items .resume-item .company {
+  margin: 0 0 11px 0;
+  font-size: 14px;
+  color: #999999;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.resume-items .resume-item p {
+  margin: 0;
+}
+
+.institute-image {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  height: auto;
+  border-radius: 0.5em;
+}
+
+.skills-list.list ul li .name {
+  font-size: 16px;
+  line-height: 18px;
+}

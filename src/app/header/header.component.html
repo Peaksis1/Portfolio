@@ -1,0 +1,18 @@
+<header class="header">
+  <div class="brand d-sm-none">
+    <div class="username">{{ username }}</div>
+    <div class="roles">
+      <app-typewriter [roles]="roles"></app-typewriter>
+    </div>
+  </div>
+  <div class="top-menu menu-minimal">
+    <ul>
+      <li *ngFor="let item of headerSections">
+        <a (click)="onClickEmit(item.id)" [href]="item.link" [id]="item.id"
+          ><span [class]="' icon ' + item.icon"></span
+          ><span class="link">{{ item.name }}</span></a
+        >
+      </li>
+    </ul>
+  </div>
+</header>

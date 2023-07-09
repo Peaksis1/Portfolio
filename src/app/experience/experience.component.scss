@@ -1,0 +1,18 @@
+@import url(../../scss/details-card-base.scss);
+
+.contribution-icon {
+  color: lightgray;
+  padding-top: 0.5em;
+}
+
+.timeline-vertical {
+  margin: 0em 2em;
+  background-image: linear-gradient(#e5b2b2, #000);
+  background-size: 2px 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.role-container {
+  min-width: 11em;
+}
