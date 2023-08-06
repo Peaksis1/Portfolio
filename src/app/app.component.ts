@@ -37,7 +37,7 @@ export class AppComponent {
 
   education: EducationalBackground[] = [
     {
-      degree: 'Bachelor of technology in Computer Science',
+      degree: 'Bachelors of technology in Computer Science',
       university: 'Dr. APJ Abdul Kalam Technical University',
       score: '8.41 CGPA',
       startDate: '2017',
