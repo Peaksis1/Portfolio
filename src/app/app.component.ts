@@ -211,19 +211,7 @@ export class AppComponent {
             'Engineered backend services with Django for scalability and rapid development',
             'Automated news retrieval using Beautiful Soup Python library for efficient data gathering',
           ],
-        },
-        {
-          startDate: 'Jun 2020',
-          endDate: 'July 2020',
-          role: 'Full Stack Developer',
-          location: 'Prayagraj, India',
-          contribution: [
-            'Developed a centralized web application aggregating categorical news from 24 trusted online sources',
-            'Designed and implemented an intuitive user interface using HTML, CSS, JavaScript, and Bootstrap',
-            'Engineered backend services with Django for scalability and rapid development',
-            'Automated news retrieval using Beautiful Soup Python library for efficient data gathering',
-          ],
-        },
+        }
       ],
     },
     {
