@@ -1,7 +1,7 @@
+import { JobsPeformed } from './JobsPeformed';
+
 export interface Experience {
   organization: string;
-  role: string;
-  startDate: string;
-  endDate?: string;
-  contribution: string[];
+  organizationLogo?: string;
+  jobTitles: JobsPeformed[];
 }

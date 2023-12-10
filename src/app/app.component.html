@@ -1,4 +1,4 @@
-<div class="view d-flex justify-content-center align-items-center">
+<div class="view d-flex justify-content-center">
   <div class="portfolio-bg"></div>
   <div class="container portfolio-container">
     <div>
@@ -65,12 +65,14 @@
         [isActive]="
           activeInfo !== 'about' &&
           activeInfo !== 'education' &&
-          activeInfo !== 'skills'
+          activeInfo !== 'skills' &&
+          activeInfo !== 'experience'
         "
         [ngClass]="
           activeInfo !== 'about' &&
           activeInfo !== 'education' &&
-          activeInfo !== 'skills'
+          activeInfo !== 'skills' &&
+          activeInfo !== 'experience'
             ? 'active'
             : 'd-none'
         "

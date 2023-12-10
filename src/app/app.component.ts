@@ -37,12 +37,12 @@ export class AppComponent {
 
   education: EducationalBackground[] = [
     {
-      degree: 'Bachelors of technology in Computer Science',
+      degree: 'Bachelor of technology in Computer Science',
       university: 'Dr. APJ Abdul Kalam Technical University',
       score: '8.41 CGPA',
       startDate: '2017',
       endDate: '2021',
-      instituteImage: 'assets/images/university-image.jpeg',
+      instituteImage: '../../assets/images/university-image.jpeg',
       location: 'Lucknow',
     },
     {
@@ -51,7 +51,7 @@ export class AppComponent {
       score: '83.2%',
       startDate: '2016',
       endDate: '2017',
-      instituteImage: 'assets/images/school-pic.jpeg',
+      instituteImage: '../../assets/images/school-pic.jpeg',
       location: 'Prayagraj',
     },
     {
@@ -60,7 +60,7 @@ export class AppComponent {
       score: '9.0 CGPA',
       startDate: '2014',
       endDate: '2015',
-      instituteImage: 'assets/images/school-pic.jpeg',
+      instituteImage: '../../assets/images/school-pic.jpeg',
       location: 'Prayagraj',
     },
   ];
@@ -177,23 +177,71 @@ export class AppComponent {
   experiences: Experience[] = [
     {
       organization: 'Tata Consultancy Services',
-      startDate: 'Aug 2021',
-      role: 'Product Engineer',
-      endDate: 'Present',
-      contribution: [
-        'Worked towards the development of a new-to-the-market product going to be launched by TCS',
-        'Developed, tested, debugged, documented, and deployed 6 progressive web applications working in an agile scrum team',
-        'Designed and developed UX of the applications using Angular framework along with HTML, CSS3, Bootstrap and TypeScript',
-        'Developed backend of the applications using Spring Boot framework and performed unit and integration testing of the same using Junit and Mockito. Also, used Javadoc Tools to document the backend services',
-        'Worked with low code framework (developed by unit, also, contributed towards its development) to develop custom apps rapidly. Also, developed a VSCode extension using Typescript to automate the process of generating boilerplate code',
+      organizationLogo: '../../assets/images/briefcase-illustration.jpeg',
+      jobTitles: [
+        {
+          startDate: 'Aug 2021',
+          role: 'Product Engineer',
+          location: 'Pune, India',
+          endDate: 'Present',
+          contribution: [
+            'Worked towards the development of a new-to-the-market product going to be launched by TCS, achieving 100% on-time delivery, zero code smell, and 100% uptime across 6 progressive web applications in an Agile Scrum team',
+            'Designed and implemented Java-based backends using the Spring Boot framework. Ensured code reliability through comprehensive unit and integration testing using Junit and Mockito. Documented the applications using Javadoc Tools',
+            'Designed and developed user interfaces of the applications using Angular framework along with HTML, CSS3, Bootstrap and TypeScript',
+            'Contributed to the development of a low code framework, reducing development time for custom apps by 80%. Also, developed a VSCode extension using Typescript to automate the process of generating boilerplate code for the framework',
+            'Configured Azure pipelines for seamless CI/CD processes',
+            'Assisted in designing the database schema and modelling the DB of web applications using OWL. Created java utilities to generate entities using only OWL file, reducing effort to create a relational database by 90%',
+            'Mentored 5 junior engineers on established coding methodologies and standards. Also conducted interviews to onboard new junior Java Full stack developers',
+          ],
+        },
       ],
     },
     {
       organization: 'Kyrion technologies',
-      startDate: 'Jun 2021',
-      endDate: 'July 2021',
-      role: 'Full Stack Intern',
-      contribution: ['', ''],
+      organizationLogo: '../../assets/images/briefcase-illustration.jpeg',
+      jobTitles: [
+        {
+          startDate: 'Jun 2020',
+          endDate: 'July 2020',
+          role: 'Full Stack Intern',
+          location: 'Prayagraj, India',
+          contribution: [
+            'Developed a centralized web application aggregating categorical news from 24 trusted online sources',
+            'Designed and implemented an intuitive user interface using HTML, CSS, JavaScript, and Bootstrap',
+            'Engineered backend services with Django for scalability and rapid development',
+            'Automated news retrieval using Beautiful Soup Python library for efficient data gathering',
+          ],
+        },
+        {
+          startDate: 'Jun 2020',
+          endDate: 'July 2020',
+          role: 'Full Stack Developer',
+          location: 'Prayagraj, India',
+          contribution: [
+            'Developed a centralized web application aggregating categorical news from 24 trusted online sources',
+            'Designed and implemented an intuitive user interface using HTML, CSS, JavaScript, and Bootstrap',
+            'Engineered backend services with Django for scalability and rapid development',
+            'Automated news retrieval using Beautiful Soup Python library for efficient data gathering',
+          ],
+        },
+      ],
+    },
+    {
+      organization: 'Microsoft Technology Associate',
+      organizationLogo: '../../assets/images/briefcase-illustration.jpeg',
+      jobTitles: [
+        {
+          startDate: 'Jun 2019',
+          endDate: 'July 2019',
+          role: 'Machine Learning intern',
+          location: 'Prayagraj, India',
+          contribution: [
+            'Responsible for developing a web app which recognizes 38 different types of crops diseases using leaves images.',
+            'Designed and developed an intuitive UX with HTML, CSS3, and JavaScript',
+            'Implemented a high-accuracy (99.1%) Convolutional Neural Network model using Keras and TensorFlow',
+          ],
+        },
+      ],
     },
   ];
 
