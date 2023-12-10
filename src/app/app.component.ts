@@ -42,7 +42,7 @@ export class AppComponent {
       score: '8.41 CGPA',
       startDate: '2017',
       endDate: '2021',
-      instituteImage: '../../assets/images/university-image.jpeg',
+      instituteImage: '/../../assets/images/university-image.jpeg',
       location: 'Lucknow',
     },
     {
@@ -51,7 +51,7 @@ export class AppComponent {
       score: '83.2%',
       startDate: '2016',
       endDate: '2017',
-      instituteImage: '../../assets/images/school-pic.jpeg',
+      instituteImage: '/../../assets/images/school-pic.jpeg',
       location: 'Prayagraj',
     },
     {
@@ -60,7 +60,7 @@ export class AppComponent {
       score: '9.0 CGPA',
       startDate: '2014',
       endDate: '2015',
-      instituteImage: '../../assets/images/school-pic.jpeg',
+      instituteImage: '/../../assets/images/school-pic.jpeg',
       location: 'Prayagraj',
     },
   ];
@@ -177,7 +177,7 @@ export class AppComponent {
   experiences: Experience[] = [
     {
       organization: 'Tata Consultancy Services',
-      organizationLogo: '../../assets/images/briefcase-illustration.jpeg',
+      organizationLogo: '/../../assets/images/briefcase-illustration.jpeg',
       jobTitles: [
         {
           startDate: 'Aug 2021',
@@ -198,7 +198,7 @@ export class AppComponent {
     },
     {
       organization: 'Kyrion technologies',
-      organizationLogo: '../../assets/images/briefcase-illustration.jpeg',
+      organizationLogo: '/../../assets/images/briefcase-illustration.jpeg',
       jobTitles: [
         {
           startDate: 'Jun 2020',
@@ -228,7 +228,7 @@ export class AppComponent {
     },
     {
       organization: 'Microsoft Technology Associate',
-      organizationLogo: '../../assets/images/briefcase-illustration.jpeg',
+      organizationLogo: '/../../assets/images/briefcase-illustration.jpeg',
       jobTitles: [
         {
           startDate: 'Jun 2019',
