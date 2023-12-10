@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1691343295591,
+  "timestamp": 1702202557429,
   "index": "https://Peaksis1.github.io/Portfolio/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "https://Peaksis1.github.io/Portfolio/favicon.ico",
         "https://Peaksis1.github.io/Portfolio/index.html",
-        "https://Peaksis1.github.io/Portfolio/main.af89ee3320961147.js",
+        "https://Peaksis1.github.io/Portfolio/main.9be8cc9a005a292c.js",
         "https://Peaksis1.github.io/Portfolio/manifest.webmanifest",
         "https://Peaksis1.github.io/Portfolio/polyfills.6e97f0195b5c1fb7.js",
         "https://Peaksis1.github.io/Portfolio/runtime.d7612f5d88075904.js",
-        "https://Peaksis1.github.io/Portfolio/styles.3026190fae62e73c.css"
+        "https://Peaksis1.github.io/Portfolio/styles.243e1d490b116128.css"
       ],
       "patterns": []
     },
@@ -57,6 +57,8 @@
         "https://Peaksis1.github.io/Portfolio/assets/icons/icon-512x512.png",
         "https://Peaksis1.github.io/Portfolio/assets/icons/icon-72x72.png",
         "https://Peaksis1.github.io/Portfolio/assets/icons/icon-96x96.png",
+        "https://Peaksis1.github.io/Portfolio/assets/images/briefcase-illustration.jpeg",
+        "https://Peaksis1.github.io/Portfolio/assets/images/prakhar-profile-image.png",
         "https://Peaksis1.github.io/Portfolio/assets/images/school-pic.jpeg",
         "https://Peaksis1.github.io/Portfolio/assets/images/university-image.jpeg",
         "https://Peaksis1.github.io/Portfolio/fa-brands-400.5f7c5bb77eae788b.ttf",
@@ -101,6 +103,8 @@
     "https://Peaksis1.github.io/Portfolio/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "https://Peaksis1.github.io/Portfolio/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://Peaksis1.github.io/Portfolio/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://Peaksis1.github.io/Portfolio/assets/images/briefcase-illustration.jpeg": "78fb09e0a70bf9794602ade86de9eb697e1beedc",
+    "https://Peaksis1.github.io/Portfolio/assets/images/prakhar-profile-image.png": "01935847b59594072c91238f5b6276f43d25ce3a",
     "https://Peaksis1.github.io/Portfolio/assets/images/school-pic.jpeg": "b2813fae364ba8728510f7687ef2b7aa4995a74c",
     "https://Peaksis1.github.io/Portfolio/assets/images/university-image.jpeg": "99b5bc5e25b6211d1af22b17723511b5917a52ff",
     "https://Peaksis1.github.io/Portfolio/fa-brands-400.5f7c5bb77eae788b.ttf": "f0982a77285d53653845b0a78170b4688db972f1",
@@ -112,12 +116,12 @@
     "https://Peaksis1.github.io/Portfolio/fa-v4compatibility.6209cf0172d95b0e.woff2": "8f80d0bbe995f7fe92320fdaec10cd5ccd710a51",
     "https://Peaksis1.github.io/Portfolio/fa-v4compatibility.92dce52f885fd838.ttf": "a9d072aca9e0fadc2a7167671ce3d6b18d9cd2cc",
     "https://Peaksis1.github.io/Portfolio/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://Peaksis1.github.io/Portfolio/index.html": "b9331efe5a063f30e0b11adae25aa060c0a43b6d",
-    "https://Peaksis1.github.io/Portfolio/main.af89ee3320961147.js": "933ea91a8465e8049627977a5a1610f79ad103a4",
+    "https://Peaksis1.github.io/Portfolio/index.html": "001eada5a04ceb43d2771a5337d7dcc6dbb0cf9e",
+    "https://Peaksis1.github.io/Portfolio/main.9be8cc9a005a292c.js": "219b8e64aebc45dd259dd0a13f2a4b56f9a431af",
     "https://Peaksis1.github.io/Portfolio/manifest.webmanifest": "370c418bdb43207939f7772081f1db8bde8a0bb3",
     "https://Peaksis1.github.io/Portfolio/polyfills.6e97f0195b5c1fb7.js": "f1b589e4c58a8405ceb7f9ab5a6ce15d96cb22a0",
     "https://Peaksis1.github.io/Portfolio/runtime.d7612f5d88075904.js": "eedc9357f73b2282a97ea1a57fd6b2f2d64194c9",
-    "https://Peaksis1.github.io/Portfolio/styles.3026190fae62e73c.css": "c318a1f52f3fa3eaf931e271f3882d8aa8c24a89"
+    "https://Peaksis1.github.io/Portfolio/styles.243e1d490b116128.css": "101d3117437df71930bf292b8679101c3c090ca2"
   },
   "navigationUrls": [
     {
